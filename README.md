@@ -79,4 +79,6 @@ cd Advanced-Todo-List-With-API-Integration
    3)Start the development server:
    npm start..
    
+Screen Shots:- 
+![Image](https://github.com/user-attachments/assets/322edc18-3024-4504-bf96-c0ab9537226c)
 

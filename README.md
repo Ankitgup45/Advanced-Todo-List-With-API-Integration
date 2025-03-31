@@ -65,3 +65,17 @@ A feature-rich To-Do List web application with task management, user authenticat
 
 13)🎭 Modular CSS Styling for maintainability
 
+
+📦 Installation Guide:- 
+
+1)git clone https://github.com/Ankitgup45/Advanced-Todo-List-With-API-Integration.git
+cd Advanced-Todo-List-With-API-Integration
+
+2. Install all required dependencies:
+   npm install react react-dom react-redux redux redux-thunk react-router-dom axios bootstrap react-bootstrap
+   npm install
+
+   3)Start the development server:
+   npm start..
+   
+

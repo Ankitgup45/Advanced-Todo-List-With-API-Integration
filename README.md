@@ -1,10 +1,13 @@
-Features Implemented
-1. Core To-Do Functionality
+📝 To-Do List with Weather Integration
+A feature-rich To-Do List web application with task management, user authentication, and real-time weather updates.
+
+🚀 Features
+1️⃣ Core To-Do Functionality
 ✅ Task Management
 
 Add new tasks with text input
 
-Delete tasks with clickable buttons
+Delete tasks with a click
 
 Set task priorities (High/Medium/Low)
 
@@ -12,55 +15,78 @@ Visual priority indicators (color-coded borders)
 
 ✅ Data Persistence
 
-Tasks saved to localStorage
+Tasks are saved to localStorage
 
-Persists between sessions when logged in
+Data persists between sessions when logged in
 
-2. User Authentication
-🔒 Login/Logout System
+2️⃣ User Authentication 🔒
+Login/Logout System (Mock authentication, no backend required)
 
-Mock authentication (no backend required)
+Protected Routes (Tasks visible only when logged in)
 
-Protected routes (tasks only visible when logged in)
+Session Management (Clean handling of user sessions)
 
-Clean session management
+Logout Button in the header
 
-Logout button in header
+3️⃣ Weather API Integration ⛅
+OpenWeatherMap API for real-time weather updates
 
-3. Weather API Integration
-⛅ OpenWeatherMap Integration
+Error Handling for API failures
 
-Current weather display for selected cities
+City Selection Dropdown
 
-Error handling for API failures
+Visual Weather Icons
 
-City selection dropdown
-
-Visual weather icons
-
-4. Technical Implementation
+4️⃣ Technical Implementation 🛠️
 🧠 State Management
 
 Redux for global state
 
-Redux Thunk for async actions
+Redux Thunk for asynchronous actions
 
-Combined reducers
+Combined reducers for better scalability
 
 🎨 UI/UX Features
 
-Responsive design (mobile-first)
+Responsive Design (Mobile-first approach)
 
-Background image with overlay
+Background Image with Overlay
 
-Clean, modern interface
+Clean, Modern Interface
 
-Loading states
+Loading States for Better UX
 
 ⚙️ Project Structure
 
-Organized component hierarchy
+Organized Component Hierarchy
 
-Proper separation of concerns
+Separation of Concerns (Properly structured files)
 
-Modular CSS styling
+Modular CSS Styling for maintainability
+
+🎯 Installation & Setup
+Clone this repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/todo-weather-app.git
+cd todo-weather-app
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the development server:
+
+bash
+Copy
+Edit
+npm start
+📌 Tech Stack
+Frontend: React, Redux, CSS
+
+State Management: Redux, Redux Thunk
+
+API Integration: OpenWeatherMap API
